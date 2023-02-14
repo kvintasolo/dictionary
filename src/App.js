@@ -1,15 +1,18 @@
 
+import React from 'react';
 import './App.css';
 import Dictionary from './Dictionary';
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>Hello world</h1>
+        
        <Dictionary />
-      </header>
+      <footer>
+        This project was coded by <a href="https://serene-mandazi-45beb2.netlify.app/" target="_blank" rel="noreferrer"> Anna Stratanovych</a> and is  
+        <a href="https://github.com/kvintasolo/dictionary" target="_blank" rel="noreferrer"> open-sourced on GitHub</a>
+      </footer>
     </div>
   );
 }
 
-export default App;
+
