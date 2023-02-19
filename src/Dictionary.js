@@ -49,7 +49,7 @@ function load(){
 if (loaded) {
     
     return (<div className="Dictionary">
-        <h1>Dictionary</h1>
+        
         <section>
             <h1 className="search"> Type a word you are looking for</h1>
             <form onSubmit={handleSubmit}>

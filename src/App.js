@@ -14,8 +14,8 @@ export default function App() {
        <Dictionary defaultKeyword ="sunset" />
        </main>
       <footer className="App-footer">
-        This project was coded by <a href="https://serene-mandazi-45beb2.netlify.app/" target="_blank" rel="noreferrer"> Anna Stratanovych</a> and is  
-        <a href="https://github.com/kvintasolo/dictionary" target="_blank" rel="noreferrer"> open-sourced on GitHub</a>
+        This project was coded by <a href="https://serene-mandazi-45beb2.netlify.app/" target="_blank" rel="noreferrer" className="App-link"> Anna Stratanovych</a> and is  
+        <a href="https://github.com/kvintasolo/dictionary" target="_blank" rel="noreferrer" className="App-link"> open-sourced on GitHub</a>
       </footer>
       </div>
     </div>
