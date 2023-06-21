@@ -1,0 +1,27 @@
+.Phonetic {
+    margin: 20px 0;
+  }
+  
+  .Phonetic a {
+    background-color: whitesmoke;
+    border: 2px solid goldenrod;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 150ms ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .Phonetic a:hover {
+    background: darkgoldenrod;
+    color: ghostwhite;
+  }
+  
+  .Phonetic .text {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    opacity: 0.5;
+    font-weight: bold;
+  }
